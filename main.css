@@ -17,8 +17,8 @@ body {
 .intro {
   background-color: #0D132C;
   color: #E0E1D7;
-  height: 250px;
-  width: 540px;
+  height: 33.33%;
+  width: 66.66%;
 }
 
 .intro h1 {
@@ -66,10 +66,10 @@ p {
 .box {
   color: #0D132C;
   font-size: 1.5em;
-  height: 250px;
+  height: 33.33%;
   position: relative;
   text-align: center;
-  width: 270px;
+  width: 33.33%;
 }
 
 .photos {
