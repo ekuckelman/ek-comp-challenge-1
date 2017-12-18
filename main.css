@@ -1,3 +1,89 @@
 * {
   margin: 0;
+  font-family: 'Muli', sans-serif;
+}
+
+.left-side {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.intro {
+  background-color: #0D132C;
+  color: #E0E1D7;
+  width: 500px;
+  height: 250px;
+}
+
+.intro h1 {
+  font-size: 3.5em;
+  font-family: 'Handlee', cursive;
+}
+
+.quote {
+  font-size: 1.5em;
+    font-family: 'Handlee', cursive; 
+  font-weight: lighter; 
+}
+
+
+p {
+  font-weight: bolder;
+}
+
+.box {
+/*all boxes*/
+color: #0D132C;
+font-size: 1.5em;
+height: 250px;
+position: relative;
+width: 250px;
+text-align: center;
+}
+
+.photos {
+  background-color: #4F5BBA;
+}
+
+.maps {
+  background-color: #F6C14C;
+}
+
+.budget {
+  background-color: #C8443C;
+}
+
+.locations {
+  background-color: #A7BAEE;
+}
+
+.videos {
+ background-color: #0D132C;
+ color: #E0E1D7;
+}
+
+.flights {
+ background-color: #A7BAEE;
+  
+}
+
+.plans {
+ background-color: #F6C14C;
+}
+
+.icon {
+
+}
+
+
+
+.right-side {
+  background-image: url("images/south-west-wing-2.jpg");
+  background-size: cover;
+  height: 100vh;
+  float: right;
+  width: 40%;
 }
