@@ -2,31 +2,34 @@
   margin: 0;
   font-family: 'Muli', sans-serif;
 }
+body {
+  display: flex;
+}
 
 .left-side {
-  width: 60%;
-  height: 100%;
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
+  height: 100vh;
+  width: 60%;
 }
 
 .intro {
   background-color: #0D132C;
   color: #E0E1D7;
-  width: 500px;
   height: 250px;
+  width: 540px;
 }
 
 .intro h1 {
-  font-size: 3.5em;
   font-family: 'Handlee', cursive;
+  font-size: 3.5em;
   margin: 3px 60px;
 }
 
 .quote {
-  font-size: 1.5em;
   font-family: 'Handlee', cursive; 
+  font-size: 1.5em;
   font-weight: lighter;
   margin: 10px; 
 }
@@ -37,12 +40,12 @@ nav {
 }
 
 .info-boxes {
+  background: transparent;
+  border: 1px solid #E0E1D7;
+  color: #E0E1D7;
   display: inline;
   font-size: 1em;
-  background: transparent;
-  color: #E0E1D7;
   margin: 0 10px;
-  border: 1px solid #E0E1D7;
   padding: 10px;
 }
 
@@ -65,8 +68,8 @@ p {
   font-size: 1.5em;
   height: 250px;
   position: relative;
-  width: 250px;
   text-align: center;
+  width: 270px;
 }
 
 .photos {
@@ -100,17 +103,15 @@ p {
 }
 
 .icon {
- width: 60px;
  height: 60px;
  margin-top: 77px;
+ width: 60px;
 }
-
-
 
 .right-side {
   background-image: url("images/south-west-wing-2.jpg");
   background-size: cover;
+  display: flex;
   height: 100vh;
-  float: right;
   width: 40%;
 }
