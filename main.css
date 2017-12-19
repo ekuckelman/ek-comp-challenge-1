@@ -2,47 +2,51 @@
   margin: 0;
   font-family: 'Muli', sans-serif;
 }
+body {
+  display: flex;
+}
 
 .left-side {
-  width: 60%;
-  height: 100%;
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
+  height: 100vh;
+  width: 60%;
 }
 
 .intro {
   background-color: #0D132C;
   color: #E0E1D7;
-  width: 500px;
-  height: 250px;
+  height: 33.33%;
+  width: 66.66%;
 }
 
 .intro h1 {
-  font-size: 3.5em;
   font-family: 'Handlee', cursive;
+  font-size: 3.5em;
   margin: 3px 60px;
 }
 
 .quote {
-  font-size: 1.5em;
   font-family: 'Handlee', cursive; 
+  font-size: 1.5em;
   font-weight: lighter;
-  margin: 10px; 
+  margin: 10px;
+  margin-left: 15px; 
 }
 
 nav {
   margin-left: 10px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .info-boxes {
+  background: transparent;
+  border: 1px solid #E0E1D7;
+  color: #E0E1D7;
   display: inline;
   font-size: 1em;
-  background: transparent;
-  color: #E0E1D7;
   margin: 0 10px;
-  border: 1px solid #E0E1D7;
   padding: 10px;
 }
 
@@ -63,10 +67,10 @@ p {
 .box {
   color: #0D132C;
   font-size: 1.5em;
-  height: 250px;
+  height: 33.33%;
   position: relative;
-  width: 250px;
   text-align: center;
+  width: 33.33%;
 }
 
 .photos {
@@ -100,17 +104,95 @@ p {
 }
 
 .icon {
- width: 60px;
  height: 60px;
  margin-top: 77px;
+ width: 60px;
 }
-
-
 
 .right-side {
   background-image: url("images/south-west-wing-2.jpg");
   background-size: cover;
+  display: flex;
   height: 100vh;
-  float: right;
   width: 40%;
 }
+
+.arrow {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: 50%;
+}
+
+.left-arrow {
+  position: absolute;
+  padding-left: 10px;}
+
+.right-arrow {
+  position: absolute;
+  right: 10px;
+}
+
+.circle-container {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+
+.circle {
+  width: 15px;
+  height: 15px;
+  opacity: .9;
+}
+
+.other {
+  opacity: .6;
+}
+
+@media screen and (max-width: 1160px) {
+   .intro h1 {
+     font-size: 2.8em;
+   }
+}
+
+@media screen and (max-width: 990px) {
+  .intro h1 {
+    font-size: 2.5em;
+  }
+}
+
+@media screen and (max-width: 915px) {
+  .intro h1 {
+    font-size: 2.2em;
+  }
+
+  .quote {
+    font-size: 1.4em; 
+  }
+
+  .info-boxes {
+    font-size: .8em;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .intro h1 {
+    font-size: 2em;
+  }
+
+  .quote {
+    font-size: 1.2em;
+  }
+
+  .box {
+    width: 66.66%;
+  }
+
+  /*.right-side {
+    width: 66.66%;
+  }*/
+}
+
+
+
+
