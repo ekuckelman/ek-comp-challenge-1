@@ -8,6 +8,3 @@ This project is meant to strengthen our css muscles! The instructors gave us the
 
 # My Version
 ![my-comp](ek-static-comp-image.png "My version")
-
-# Mobile Layout
-![mobile-layout](moblie.png "Mobile version")
