@@ -7,4 +7,7 @@ This project is meant to strengthen our css muscles! The instructors gave us the
 ![original-comp](original-comp.jpg "Original Comp")
 
 # My Version
-![my-comp](ek-static-comp-image.png "Our Comp")
+![my-comp](ek-static-comp-image.png "My Comp")
+
+# Mobile Layout
+![mobile-layout] (ek-comp-challenge-1/moblie .png)
