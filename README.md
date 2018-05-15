@@ -10,4 +10,4 @@ This project is meant to strengthen our css muscles! The instructors gave us the
 ![my-comp](ek-static-comp-image.png "My Comp")
 
 # Mobile Layout
-![mobile-layout] (ek-comp-challenge-1/moblie .png)
+![mobile-layout](ek-comp-challenge-1/moblie .png)
